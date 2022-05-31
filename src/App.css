@@ -5,6 +5,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-image: url(http://2.bp.blogspot.com/-jQVX3SrwQfw/U8unsaXrfxI/AAAAAAAAIiM/BhsKtSdspp0/s1600/fuego-cortado-1.gif) !important;
+  border-radius: 84% !important;
+  margin-bottom: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

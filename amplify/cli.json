@@ -1,44 +1,44 @@
 {
   "features": {
     "graphqltransformer": {
-      "addmissingownerfields": true,
+      "addmissingownerfields": false,
       "improvepluralization": false,
-      "validatetypenamereservedwords": true,
-      "useexperimentalpipelinedtransformer": true,
-      "enableiterativegsiupdates": true,
-      "secondarykeyasgsi": true,
-      "skipoverridemutationinputtypes": true,
+      "validatetypenamereservedwords": false,
+      "useexperimentalpipelinedtransformer": false,
+      "enableiterativegsiupdates": false,
+      "secondarykeyasgsi": false,
+      "skipoverridemutationinputtypes": false,
       "transformerversion": 2,
-      "suppressschemamigrationprompt": true,
+      "suppressschemamigrationprompt": false,
       "securityenhancementnotification": false,
       "showfieldauthnotification": false,
-      "usesubusernamefordefaultidentityclaim": true,
+      "usesubusernamefordefaultidentityclaim": false,
       "usefieldnameforprimarykeyconnectionfield": false
     },
     "frontend-ios": {
-      "enablexcodeintegration": true
+      "enablexcodeintegration": false
     },
     "auth": {
-      "enablecaseinsensitivity": true,
-      "useinclusiveterminology": true,
-      "breakcirculardependency": true,
+      "enablecaseinsensitivity": false,
+      "useinclusiveterminology": false,
+      "breakcirculardependency": false,
       "forcealiasattributes": false,
-      "useenabledmfas": true
+      "useenabledmfas": false
     },
     "codegen": {
-      "useappsyncmodelgenplugin": true,
-      "usedocsgeneratorplugin": true,
-      "usetypesgeneratorplugin": true,
-      "cleangeneratedmodelsdirectory": true,
-      "retaincasestyle": true,
-      "addtimestampfields": true,
-      "handlelistnullabilitytransparently": true,
-      "emitauthprovider": true,
-      "generateindexrules": true,
-      "enabledartnullsafety": true
+      "useappsyncmodelgenplugin": false,
+      "usedocsgeneratorplugin": false,
+      "usetypesgeneratorplugin": false,
+      "cleangeneratedmodelsdirectory": false,
+      "retaincasestyle": false,
+      "addtimestampfields": false,
+      "handlelistnullabilitytransparently": false,
+      "emitauthprovider": false,
+      "generateindexrules": false,
+      "enabledartnullsafety": false
     },
     "appsync": {
-      "generategraphqlpermissions": true
+      "generategraphqlpermissions": false
     },
     "latestregionsupport": {
       "pinpoint": 1,
@@ -49,7 +49,7 @@
       "comprehend": 1
     },
     "project": {
-      "overrides": true
+      "overrides": false
     }
   }
 }
